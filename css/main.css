@@ -1,0 +1,227 @@
+/* Reset, swatches and general settings */
+
+:root {
+    --accent: #fc4750;
+    --dark: #2c313a;
+    --surface: #3f454f;
+    --light: #fffbf5;
+}
+
+::selection {
+    background: var(--accent);
+    color: var(--dark);
+}
+
+@font-face {
+    font-family: graphik;
+    src: url(../fonts/Graphik-Regular.otf);
+}
+
+@font-face {
+    font-family: graphikbold;
+    src: url(../fonts/Graphik-Bold.otf);
+}
+
+@font-face {
+    font-family: antro;
+    src: url(../fonts/Antro.otf);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+span {
+    margin: 0;
+    padding: 0;
+    font-family: "graphik", sans-serif;
+    text-decoration: none;
+    color: var(--light);
+}
+
+a {
+    cursor: pointer;
+}
+
+body {
+    background: var(--dark);
+}
+
+section {
+    height: 100vh;
+}
+
+
+
+
+/* Navigation Styling */
+
+nav {
+    height: 200px;
+    position: absolute;
+    width: calc(100% - 75px);
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 37.5px;
+    border: var(--accent) 1px solid;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+nav li {
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    transition: .2s;
+    box-sizing: border-box;
+}
+
+nav a {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    font-family: "graphikbold";
+    text-transform: uppercase;
+    color: var(--surface);
+    transition: .2s;
+}
+
+nav li:hover:not(.logo-link) {
+    background: linear-gradient(var(--dark), var(--surface));
+    border-bottom: var(--accent) 5px solid;
+}
+
+nav li:hover a {
+    color: var(--light);
+}
+
+.st0 {
+    transition: .2s;
+}
+
+.logo-link a {
+    left: 112.5px;
+}
+
+.logo-link:hover .st0 {
+    fill: var(--light);
+}
+
+#logo {
+    height: 110px;
+    position: relative;
+    top: 50%;
+}
+
+
+
+
+
+
+/* Main Hero Styling */
+
+#main-hero {
+    height: 100vh;
+    position: relative;
+}
+
+#hero-name {
+    position: absolute;
+    /* 100% - menu / 2 */
+    top: calc((100% - 200px)/2);
+    transform: translateY(-50%);
+}
+
+#main-hero h1,#main-hero h2 {
+    text-transform: uppercase;
+    font-family: graphikbold;
+    color: var(--light)
+}
+
+#main-hero h1 {
+    font-size: 170px;
+    line-height: 162px;
+    z-index: 10;
+    margin-left: 37.5px;
+}
+
+#main-hero h2 {
+    color: var(--accent);
+    font-size: 75px;
+    letter-spacing: 6px;
+    margin-left: 37.5px;
+}
+
+#hero-stroke {
+    width: calc(100% - 75px);
+    height: calc(100% - 75px);
+    border: var(--accent) 1px solid;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+#main-hero .artifact {
+    width: 600px;
+    position: absolute;
+    right: 75px;
+    top: 75px;
+}
+
+
+
+
+
+/* About styling */
+
+#about {
+    height: 65vh;
+    background: var(--surface);
+}
+
+#about-me {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#about-image {
+    width: 50%;
+    height: 100%;
+    background: var(--accent);
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
