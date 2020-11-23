@@ -5,6 +5,7 @@
     --dark: #2c313a;
     --surface: #3f454f;
     --light: #fffbf5;
+    --gradient: linear-gradient(var(--dark), var(--surface))
 }
 
 ::selection {
@@ -98,7 +99,7 @@ nav a {
 }
 
 nav li:hover:not(.logo-link) {
-    background: linear-gradient(var(--dark), var(--surface));
+    background: var(--gradient);
     border-bottom: var(--accent) 5px solid;
 }
 
@@ -199,10 +200,27 @@ nav li:hover a {
     float: left;
 }
 
+.text-area {
+    margin: 0 120px 075px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text-area p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#about-me h3 {
+    font-size: 60px;
+    font-family: "graphikbold";
+}
+
 #about-image {
     width: 50%;
     height: 100%;
-    background: var(--accent);
+    background: var(--gradient);
     float: left;
 }
 
