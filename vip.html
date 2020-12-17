@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Tobias Skovdal</title>
+
+    <meta name="description" content="Mit navn er Tobias Skovdal, en ung grafiker der brænder for sit erhverv.">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!-- Searchbar i toppen på mobil skifter farve i chrome -->
+    <meta name="theme-color" content="#080808" />
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+</head>
+
+<body>
+
+    <style>
+        :root {
+            --accent: #263a60;
+        }
+
+    </style>
+
+    <nav id="menu">
+
+        <ul>
+
+            <a class="nav-logo" href="index.html#main-hero">
+                <li>
+                    <svg id="nav-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1219.54 1080" style="enable-background:new 0 0 1219.54 1080;" xml:space="preserve">
+                        <path class="bg-logo" d="M1032.01,454.88L845.77,342.52c-105.13-62.51-140.53-117.78-140.53-180.3c0-21.58,4.76-41.22,13.16-58.34
+	c20.44-41.65,75.57-53.76,113.75-27.41c86.79,59.89,168.83,172.46,244.72,346.49h1.5V0H0v422.95h1.5
+	C113.99,164.97,239.97,41.99,373.45,25.49v1030.37H238.47v23.99h571.18c2.55,0.04,5.09,0.14,7.71,0.14c1.95,0,3.76-0.11,5.62-0.14
+	h15.43c226.02-8.01,381.14-147.87,381.14-337.99C1219.54,612.7,1151.35,525.91,1032.01,454.88 M713.75,980.83
+	c-6.2-11.87-9.46-25.04-9.5-38.43l-0.85-315.25c0.01,0.01,0.02,0.01,0.04,0.02c1.55,0.79,3.11,1.81,4.64,2.58l161.96,88.07
+	c82.41,43.93,119.34,102.3,119.34,170.5c0,90.92-73.88,157.57-174.88,157.57c-41.03-0.01-78.67-22.82-97.68-59.19L713.75,980.83z" />
+                    </svg>
+                </li>
+            </a>
+
+            <a href="index.html#about">
+                <li>
+                    Om mig
+                </li>
+            </a>
+
+            <a href="index.html#portfolio">
+                <li>
+                    Portfolio
+                </li>
+            </a>
+
+            <a href="#contact">
+                <li>
+                    Kontakt mig
+                </li>
+            </a>
+
+        </ul>
+
+    </nav>
+
+    <div id="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <section id="main-hero">
+
+        <a href="index.html#main-hero">
+            <svg id="hero-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1219.54 1080" style="enable-background:new 0 0 1219.54 1080;" xml:space="preserve">
+                <path class="bg-logo" d="M1032.01,454.88L845.77,342.52c-105.13-62.51-140.53-117.78-140.53-180.3c0-21.58,4.76-41.22,13.16-58.34
+	c20.44-41.65,75.57-53.76,113.75-27.41c86.79,59.89,168.83,172.46,244.72,346.49h1.5V0H0v422.95h1.5
+	C113.99,164.97,239.97,41.99,373.45,25.49v1030.37H238.47v23.99h571.18c2.55,0.04,5.09,0.14,7.71,0.14c1.95,0,3.76-0.11,5.62-0.14
+	h15.43c226.02-8.01,381.14-147.87,381.14-337.99C1219.54,612.7,1151.35,525.91,1032.01,454.88 M713.75,980.83
+	c-6.2-11.87-9.46-25.04-9.5-38.43l-0.85-315.25c0.01,0.01,0.02,0.01,0.04,0.02c1.55,0.79,3.11,1.81,4.64,2.58l161.96,88.07
+	c82.41,43.93,119.34,102.3,119.34,170.5c0,90.92-73.88,157.57-174.88,157.57c-41.03-0.01-78.67-22.82-97.68-59.19L713.75,980.83z" />
+            </svg>
+        </a>
+
+        <svg id="bg-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1219.54 1080" style="enable-background:new 0 0 1219.54 1080;" xml:space="preserve">
+            <path class="bg-logo" d="M1032.01,454.88L845.77,342.52c-105.13-62.51-140.53-117.78-140.53-180.3c0-21.58,4.76-41.22,13.16-58.34
+	c20.44-41.65,75.57-53.76,113.75-27.41c86.79,59.89,168.83,172.46,244.72,346.49h1.5V0H0v422.95h1.5
+	C113.99,164.97,239.97,41.99,373.45,25.49v1030.37H238.47v23.99h571.18c2.55,0.04,5.09,0.14,7.71,0.14c1.95,0,3.76-0.11,5.62-0.14
+	h15.43c226.02-8.01,381.14-147.87,381.14-337.99C1219.54,612.7,1151.35,525.91,1032.01,454.88 M713.75,980.83
+	c-6.2-11.87-9.46-25.04-9.5-38.43l-0.85-315.25c0.01,0.01,0.02,0.01,0.04,0.02c1.55,0.79,3.11,1.81,4.64,2.58l161.96,88.07
+	c82.41,43.93,119.34,102.3,119.34,170.5c0,90.92-73.88,157.57-174.88,157.57c-41.03-0.01-78.67-22.82-97.68-59.19L713.75,980.83z" />
+        </svg>
+
+
+        <div id="hero-image" class="svg-hero hero-vip">
+
+            <svg id="hero-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1198.27 361.98" style="enable-background:new 0 0 1198.27 361.98;" xml:space="preserve">
+                <g>
+                    <g>
+                        <path class="st0" d="M680.45,361.98c0,0,57.01-36.74,73.48-129.23c17.74-78.55,65.88-144.43,174.84-183.71
+			c105.16-31.67,164.7-32.94,226.78-39.28c-25.38,18.46-108.56,57.94-171.06,77.28c-19.78,6.12-38.82,14.51-56.38,25.48
+			c-38.31,23.93-75.36,61.94-109.57,145.56C795.74,294.84,765.33,326.51,680.45,361.98z" />
+                        <path class="st0" d="M891.99,197.15c16.97-17.68,107.63-81.6,288.38-119.59c-32.41,47.76-144.96,110.24-286.2,123.99
+			C891.75,201.79,890.31,198.89,891.99,197.15z" />
+                        <path class="st0" d="M1198.27,139.56c0,0-58.3,80.02-198.79,132.56c-15.48,5.79-31.67,9.62-48.11,11.27
+			c-40.99,4.11-73.77,1.6-93.43-8.07c-6.52-3.21-8.41-11.74-3.8-17.36c8.1-9.88,27.64-18.93,47.67-22.12
+			C930.43,231.3,1093.12,205.44,1198.27,139.56z" />
+                    </g>
+                    <g>
+                        <path class="st0" d="M517.83,361.98c0,0-57.01-36.74-73.48-129.23C426.61,154.2,378.46,88.32,269.5,49.05
+			C164.35,17.37,104.8,16.11,42.72,9.77C68.1,28.23,151.28,67.71,213.78,87.05c19.78,6.12,38.82,14.51,56.38,25.48
+			c38.31,23.93,75.36,61.94,109.57,145.56C402.53,294.84,432.94,326.51,517.83,361.98z" />
+                        <path class="st0" d="M306.29,197.15c-16.97-17.68-107.63-81.6-288.38-119.59c32.41,47.76,144.96,110.24,286.2,123.99
+			C306.52,201.79,307.96,198.89,306.29,197.15z" />
+                        <path class="st0" d="M0,139.56c0,0,58.3,80.02,198.79,132.56c15.48,5.79,31.67,9.62,48.11,11.27c40.99,4.11,73.77,1.6,93.43-8.07
+			c6.52-3.21,8.41-11.74,3.8-17.36c-8.1-9.88-27.64-18.93-47.67-22.12C267.85,231.3,105.16,205.44,0,139.56z" />
+                    </g>
+                    <path class="st0" d="M599.12,0c-71.68,0-129.78,58.1-129.78,129.78s58.1,129.81,129.78,129.81s129.81-58.13,129.81-129.81
+		S670.8,0,599.12,0z M690.89,129.78c0,4.12-0.29,8.17-0.82,12.14c-0.24,1.76-1.97,2.92-3.71,2.52l-34.6-7.97
+		c-5.77-1.33-11.24-3.6-16.23-6.69c4.99-3.09,10.47-5.36,16.23-6.69l34.6-7.97c1.73-0.4,3.47,0.76,3.71,2.52
+		C690.61,121.62,690.89,125.66,690.89,129.78z M665.58,193.05c-1.23,1.29-3.32,1.2-4.49-0.14l-23.3-26.78
+		c-3.88-4.46-6.98-9.52-9.2-14.95c5.85,0.44,11.62,1.82,17.06,4.13l32.68,13.89c1.64,0.7,2.37,2.67,1.52,4.23
+		C675.96,180.61,671.16,187.2,665.58,193.05z M518.4,173.45c-0.85-1.57-0.12-3.54,1.52-4.24l32.69-13.89
+		c5.44-2.31,11.21-3.7,17.06-4.13c-2.22,5.43-5.32,10.49-9.2,14.95l-23.3,26.78c-1.17,1.34-3.27,1.43-4.49,0.14
+		C527.1,187.2,522.29,180.61,518.4,173.45z M507.35,129.78c0-4.12,0.29-8.16,0.82-12.13c0.24-1.76,1.97-2.92,3.71-2.52l34.62,7.97
+		c5.77,1.33,11.24,3.6,16.23,6.69c-4.99,3.09-10.47,5.36-16.23,6.69l-34.62,7.97c-1.73,0.4-3.47-0.76-3.71-2.52
+		C507.63,137.95,507.35,133.9,507.35,129.78z M532.67,66.51c1.23-1.29,3.32-1.2,4.49,0.14l23.3,26.78c3.88,4.46,6.98,9.52,9.2,14.95
+		c-5.85-0.44-11.62-1.82-17.06-4.13l-32.69-13.89c-1.64-0.7-2.37-2.67-1.52-4.24C522.29,78.96,527.1,72.37,532.67,66.51z
+		 M679.85,86.13c0.85,1.57,0.12,3.54-1.52,4.23l-32.68,13.89c-5.44,2.31-11.21,3.7-17.06,4.13c2.22-5.43,5.32-10.49,9.2-14.95
+		l23.3-26.78c1.17-1.34,3.27-1.43,4.49-0.14C671.16,72.37,675.96,78.96,679.85,86.13z M621.75,81.78
+		c-3.04,5.07-6.9,9.58-11.37,13.37c-1.39-5.7-1.86-11.61-1.34-17.5l3.11-35.38c0.16-1.77,1.8-3.08,3.56-2.76
+		c8.12,1.48,15.86,4.04,23.08,7.5c1.6,0.77,2.17,2.79,1.25,4.31L621.75,81.78z M589.22,77.65c0.52,5.89,0.05,11.8-1.34,17.5
+		c-4.48-3.79-8.33-8.3-11.37-13.37l-18.28-30.46c-0.92-1.53-0.35-3.54,1.25-4.31c7.22-3.47,14.96-6.02,23.08-7.5
+		c1.75-0.32,3.4,0.98,3.55,2.76L589.22,77.65z M576.5,177.78c3.04-5.07,6.9-9.58,11.37-13.37c1.39,5.7,1.86,11.61,1.34,17.5
+		l-3.11,35.37c-0.16,1.77-1.8,3.08-3.55,2.76c-8.11-1.48-15.85-4.03-23.07-7.5c-1.6-0.77-2.17-2.79-1.25-4.32L576.5,177.78z
+		 M609.04,181.91c-0.52-5.89-0.05-11.8,1.34-17.5c4.48,3.79,8.33,8.3,11.37,13.37l18.27,30.45c0.92,1.53,0.35,3.55-1.25,4.32
+		c-7.22,3.46-14.96,6.01-23.07,7.5c-1.75,0.32-3.4-0.98-3.55-2.76L609.04,181.91z" />
+                </g>
+            </svg>
+        </div>
+
+        <div id="hero-text">
+
+            <h1>VIP</h1>
+
+            <div class="box-text">
+                <h2>Skoleprojekt</h2>
+            </div>
+
+        </div>
+
+        <div id="hero-text-bottom">
+
+            <h1>VIP</h1>
+
+            <div class="box-text">
+                <h2>Monke</h2>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <section id="about">
+
+        <div class="project-container">
+
+            <div class="half-col about-text">
+                <div class="center-text">
+                    <h3>Om Projektet</h3>
+                    <p>VIP var et af mine første store skoleprojekter på mediegrafiker uddannelsen. Målet var at lave et nyt bilmagasin.</p>
+                </div>
+            </div>
+
+            <div class="half-col darklogo-image">
+                <img src="img/vip-dark.png" alt="Billede af sort logo">
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="project-container">
+
+            <div class="half-col product-image vip-mag">
+                <img src="img/vip-mag-mockup.png" alt="Billede af magasin">
+            </div>
+
+            <div class="half-col about-text">
+                <div class="center-text">
+                    <h3>En livsstil, kun få har råd til</h3>
+                    <p>Magasinets navn VIP, står får Vehicles, Intelligence og Performance. Magasinet er målrettet læsere, som allerede lever luksuslivet, om det er i store huse eller penthouses, om de kører Mercedes eller Tesla.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="project-container skovlund-app">
+
+            <div class="half-col center-col">
+
+                <img src="img/vip-mockup.png" alt="Billede af computer">
+
+                <h3>Kun for de bedste</h3>
+                <p>Magasinet har også deres egen hjemmeside, hvor læsere kan tilmelde sig forskellige niveauer af abbonomenter til magasinet. Herinde, kan de også læse artikler om de nyeste, hurtigste og smarteste biler på markedet.</p>
+                <a href="/vip/" class="project-button">Se siden her</a>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section id="contact">
+
+        <h3>Kontakt mig</h3>
+
+        <form action="https://formcarry.com/s/-GHTzflbIj" method="POST" accept-charset="UTF-8">
+
+            <div class="half-col">
+                <p>Navn</p>
+                <input name="Name">
+                <p>Email</p>
+                <input name="Email">
+                <p>Emne</p>
+                <input name="Title">
+            </div>
+
+            <div class="half-col">
+
+                <p>Besked</p>
+                <textarea name="message"></textarea>
+
+                <button type="submit">Send</button>
+
+            </div>
+
+        </form>
+
+
+    </section>
+
+    <footer>
+
+        <div class="half-col">
+            <div class="center-text">
+
+                <p>Følg mig her:</p>
+
+                <a target="_blank" href="https://www.instagram.com/tobias.skovdal/">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 551 551" style="enable-background:new 0 0 551 551;" xml:space="preserve">
+                        <g>
+                            <path class="some-icon" d="M386.9,0H164.2C73.6,0,0,73.6,0,164.2v222.7C0,477.4,73.6,551,164.2,551h222.7c90.5,0,164.2-73.6,164.2-164.2
+		V164.2C551,73.6,477.4,0,386.9,0z M495.6,386.9c0,60-48.7,108.7-108.7,108.7H164.2c-60,0-108.7-48.7-108.7-108.7V164.2
+		c0-60,48.7-108.7,108.7-108.7h222.7c60,0,108.7,48.7,108.7,108.7L495.6,386.9L495.6,386.9z" />
+                            <path class="some-icon" d="M275.5,133C196.9,133,133,196.9,133,275.5S196.9,418,275.5,418S418,354.1,418,275.5S354.1,133,275.5,133z
+		 M275.5,362.6c-48.1,0-87.1-39-87.1-87.1s39-87.1,87.1-87.1c48.1,0,87.1,39,87.1,87.1C362.6,323.6,323.6,362.6,275.5,362.6z" />
+                            <circle class="some-icon" cx="418.3" cy="134.1" r="34.1" />
+                        </g>
+                    </svg>
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/in/tobiasskovdal/">
+                    <svg class="some-icon" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" />
+                        <path d="m.396 7.977h4.976v16.023h-4.976z" />
+                        <path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" />
+                    </svg>
+                </a>
+
+                <a class="facebook" target="_blank" href="https://www.facebook.com/tobias.skovdal/">
+                    <svg class="some-icon" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" />
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="half-col">
+
+            <div class="center-text">
+
+                <svg id="footer-logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1219.54 1080" style="enable-background:new 0 0 1219.54 1080;" xml:space="preserve">
+                    <path class="bg-logo" d="M1032.01,454.88L845.77,342.52c-105.13-62.51-140.53-117.78-140.53-180.3c0-21.58,4.76-41.22,13.16-58.34
+	c20.44-41.65,75.57-53.76,113.75-27.41c86.79,59.89,168.83,172.46,244.72,346.49h1.5V0H0v422.95h1.5
+	C113.99,164.97,239.97,41.99,373.45,25.49v1030.37H238.47v23.99h571.18c2.55,0.04,5.09,0.14,7.71,0.14c1.95,0,3.76-0.11,5.62-0.14
+	h15.43c226.02-8.01,381.14-147.87,381.14-337.99C1219.54,612.7,1151.35,525.91,1032.01,454.88 M713.75,980.83
+	c-6.2-11.87-9.46-25.04-9.5-38.43l-0.85-315.25c0.01,0.01,0.02,0.01,0.04,0.02c1.55,0.79,3.11,1.81,4.64,2.58l161.96,88.07
+	c82.41,43.93,119.34,102.3,119.34,170.5c0,90.92-73.88,157.57-174.88,157.57c-41.03-0.01-78.67-22.82-97.68-59.19L713.75,980.83z" />
+                </svg>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
+
+
+<script src="js/main.js"></script>
